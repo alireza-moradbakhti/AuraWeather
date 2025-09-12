@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_large">24sp</dimen>
+    <dimen name="font_size_medium">20sp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+
+    <!-- Title sizes from 10sp to 48sp -->
+    <dimen name="Title1">10sp</dimen>
+    <dimen name="Title2">11sp</dimen>
+    <dimen name="Title3">12sp</dimen>
+    <dimen name="Title4">13sp</dimen>
+    <dimen name="Title5">14sp</dimen>
+    <dimen name="Title6">15sp</dimen>
+    <dimen name="Title7">16sp</dimen>
+    <dimen name="Title8">17sp</dimen>
+    <dimen name="Title9">18sp</dimen>
+    <dimen name="Title10">19sp</dimen>
+    <dimen name="Title11">20sp</dimen>
+    <dimen name="Title12">21sp</dimen>
+    <dimen name="Title13">22sp</dimen>
+    <dimen name="Title14">23sp</dimen>
+    <dimen name="Title15">24sp</dimen>
+    <dimen name="Title16">25sp</dimen>
+    <dimen name="Title17">26sp</dimen>
+    <dimen name="Title32">32sp</dimen>
+    <dimen name="Title48">48sp</dimen>
+</resources>
