@@ -42,4 +42,14 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(libs.koin.android)
+
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.core)
+
+    // Testing
+    testImplementation(libs.junit.jupiter.api)
+    testRuntimeOnly(libs.junit.jupiter.engine)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.mockk.android)
+    testImplementation(libs.turbine)
 }
