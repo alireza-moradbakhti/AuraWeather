@@ -34,6 +34,13 @@ android {
     buildFeatures {
         compose = true
     }
+
+    testOptions {
+        unitTests.all {
+            // This line tells the test runner to use the JUnit5 platform
+            it.useJUnitPlatform()
+        }
+    }
 }
 
 dependencies {

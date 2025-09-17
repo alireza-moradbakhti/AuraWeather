@@ -32,6 +32,13 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+    testOptions {
+        unitTests.all {
+            // This line tells the test runner to use the JUnit5 platform
+            it.useJUnitPlatform()
+        }
+    }
 }
 
 dependencies {
