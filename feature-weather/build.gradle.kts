@@ -34,6 +34,13 @@ android {
     buildFeatures {
         compose = true
     }
+
+    testOptions {
+        unitTests.all {
+            // This line tells the test runner to use the JUnit5 platform
+            it.useJUnitPlatform()
+        }
+    }
 }
 
 dependencies {
@@ -68,4 +75,5 @@ dependencies {
     testRuntimeOnly(libs.junit.jupiter.engine)
     testImplementation(libs.mockk.android)
     testImplementation(libs.turbine)
+    testImplementation(libs.kotlinx.coroutines.test)
 }
